@@ -1,6 +1,6 @@
 # Documentation
 
-All our documentation is located at [hotio.dev](https://hotio.dev).
+All our documentation is located at [engels74.net](https://engels74.net/containers/qbittorrent).
 
 # Support
 
@@ -8,7 +8,7 @@ If you need some assistance, please join our [discord](https://hotio.dev/discord
 
 # Source
 
-The source is hosted at [GitHub](https://github.com/hotio). If you can't find it in the `master` branch, it's probably located in another branch.
+The source is hosted at [GitHub](https://github.com/engels74/qbittorrent/tree/legacy). If you can't find it in the `master` branch, it's probably located in another branch.
 
 # Show your support
 
