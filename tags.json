@@ -2,13 +2,13 @@
   "legacy": {
     "description": "Fixed to v4.3.9",
     "hide": false,
-    "last_updated": "2024-07-23T00:39:03.000Z",
-    "last_updated_url": "https://github.com/engels74/qbittorrent/actions/runs/10050560877",
+    "last_updated": "2024-08-01T17:50:20.000Z",
+    "last_updated_url": "https://github.com/engels74/qbittorrent/actions/runs/10203204786",
     "latest": false,
     "tags": [
       "legacy",
       "legacy-4.3.9",
-      "legacy-1c7e064"
+      "legacy-9958b2e"
     ]
   },
   "release": {
