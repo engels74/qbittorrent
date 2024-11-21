@@ -2,7 +2,7 @@
   "description": "Releases",
   "full_version": "release-5.0.2_v2.0.10",
   "latest": true,
-  "nightwalker_version": "2458c9e4fd076599c75ee004dacdc7d28606381d",
+  "nightwalker_version": "9b9bcd523cdfa1cdf964e9739638d04669381dc9",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:8080",
