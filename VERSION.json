@@ -1,6 +1,6 @@
 {
   "description": "Releases",
-  "full_version": "release-5.0.4_v2.0.11",
+  "full_version": "release-5.0.5_v2.0.11",
   "latest": true,
   "nightwalker_version": "af82d8d8589630a8506c524fd2cb8d4709343be4",
   "test_amd64": true,
@@ -10,6 +10,6 @@
   "upstream_digest_arm64": "sha256:579f2387531b2b94959aa10574e407223a4c050d2d018fc8dfc0e9ba9db77fac",
   "upstream_image": "ghcr.io/engels74/base-image",
   "upstream_tag": "alpinevpn",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "vuetorrent_version": "2.24.0"
 }
