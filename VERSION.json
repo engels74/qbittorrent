@@ -11,5 +11,5 @@
   "upstream_image": "ghcr.io/engels74/base-image",
   "upstream_tag": "alpinevpn",
   "version": "4.3.9",
-  "vuetorrent_version": "2.26.0"
+  "vuetorrent_version": "2.27.0"
 }
