@@ -9,6 +9,7 @@ ENV IMAGE_STATS=${IMAGE_STATS} WEBUI_PORTS="8080/tcp,8080/udp"
 RUN ln -s "${CONFIG_DIR}" "${APP_DIR}/qBittorrent"
 
 ARG FULL_VERSION
+ARG BUILD_REVISION
 RUN curl -fsSL "https://github.com/userdocs/qbittorrent-nox-static-legacy/releases/download/${FULL_VERSION}/aarch64-qbittorrent-nox" > "${APP_DIR}/qbittorrent-nox" && \
     chmod 755 "${APP_DIR}/qbittorrent-nox"
 
@@ -17,15 +18,5 @@ RUN curl -fsSL "https://github.com/vuetorrent/vuetorrent/releases/download/v${VU
     unzip "/tmp/vuetorrent.zip" -d "${APP_DIR}" && \
     rm "/tmp/vuetorrent.zip" && \
     chmod -R u=rwX,go=rX "${APP_DIR}/vuetorrent"
-
-ARG NIGHTWALKER_VERSION
-RUN mkdir "${APP_DIR}/nightwalker" && \
-    wget -O - "https://github.com/CallMeBruce/nightwalker/archive/${NIGHTWALKER_VERSION}.tar.gz" | tar xzf - -C "${APP_DIR}/nightwalker" --strip-components=1 && \
-    chmod -R u=rwX,go=rX "${APP_DIR}/nightwalker"
-
-# Install ffprobe 
-RUN apk add --no-cache ffmpeg
-RUN mkdir -p ${APP_DIR}/bin
-RUN cp /usr/bin/ffprobe ${APP_DIR}/bin/ffprobe
 
 COPY root/ /
