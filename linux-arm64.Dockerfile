@@ -18,5 +18,4 @@ RUN curl -fsSL "https://github.com/vuetorrent/vuetorrent/releases/download/v${VU
     rm "/tmp/vuetorrent.zip" && \
     chmod -R u=rwX,go=rX "${APP_DIR}/vuetorrent"
 
-
 COPY root/ /
