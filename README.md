@@ -36,8 +36,8 @@ To get started with qbittorrent using Docker, follow these steps:
 	      - PGID=1000
 	      - UMASK=002
 	      - TZ=Etc/UTC
-          - LIBTORRENT=v2
 	      - WEBUI_PORTS=8080/tcp,8080/udp
+          - LIBTORRENT=v2
 	    volumes:
 	      - /<host_folder_config>:/config
 	      - /<host_folder_data>:/data
