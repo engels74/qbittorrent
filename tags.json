@@ -14,13 +14,13 @@
   "release": {
     "description": "Releases",
     "hide": false,
-    "last_updated": "2025-12-27T13:23:25.000Z",
-    "last_updated_url": "https://github.com/engels74/qbittorrent/actions/runs/20539591236",
+    "last_updated": "2025-12-30T14:17:52.000Z",
+    "last_updated_url": "https://github.com/engels74/qbittorrent/actions/runs/20598541712",
     "latest": true,
     "tags": [
       "release",
       "release-5.1.4",
-      "release-9c1ca4e"
+      "release-9633c66"
     ]
   }
 }
