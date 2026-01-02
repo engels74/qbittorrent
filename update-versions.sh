@@ -10,5 +10,5 @@ jq --sort-keys \
     --arg version "${version//v/}" \
     --arg full_version "${full_version}" \
     --arg vuetorrent_version "${vuetorrent_version//v/}" \
-        --arg build_revision "${build_revision}" \
+    --arg build_revision "${build_revision}" \
     '.version = $version | .full_version = $full_version | .build_revision = $build_revision' | .vuetorrent_version = $vuetorrent_version' <<< "${json}" | tee VERSION.json
