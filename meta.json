@@ -1,6 +1,6 @@
 {
-  "build_revision_lib1": "2",
-  "build_revision_lib2": "2",
+  "build_revision_lib1": "3",
+  "build_revision_lib2": "3",
   "description": "Releases",
   "full_version_lib1": "release-5.2.0_v1.2.20",
   "full_version_lib2": "release-5.2.0_v2.0.12",
@@ -13,5 +13,5 @@
   "upstream_tag": "alpinevpn",
   "upstream_tag_sha": "alpinevpn-89acd94",
   "version": "5.2.0",
-  "vuetorrent_version": "2.33.0"
+  "vuetorrent_version": "2.34.0"
 }
